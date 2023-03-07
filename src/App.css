@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  list-style-type: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: aqua;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+  background: linear-gradient(180deg, rgba(238, 134, 46, 1) 0%, rgba(165, 63, 29, 1) 85%) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar {
+  background-color: #0d1e37 !important;
+  color: #fff !important;
+  height: 100%;
+}
+
+.sidebar li:nth-child(2) {
+  background: linear-gradient(180deg, rgba(238, 134, 46, 1) 0%, rgba(165, 63, 29, 1) 85%) !important;
+}
+
+.active-menu {
+  background: linear-gradient(180deg, rgba(238, 134, 46, 1) 0%, rgba(165, 63, 29, 1) 85%) !important;
+  border: 1px solid transparent !important;
+  color: #fff !important;
+}
+
+.menu-button {
+  background-color: transparent !important;
+  color: darkgray !important;
+  border: 1px solid darkgray !important;
+  /* border: 1px 1px 1px 1px !important; */
+}
+
+.active-menu-number {
+  background-color: #f5c49e !important;
+  border: 1px solid transparent !important;
+  position: absolute;
+  color: #fff !important;
+  right: -4px;
+  padding: 8px;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+.menu-number {
+  position: absolute;
+  right: -4px;
+  padding: 8px;
+  border-radius: 3px;
+  background-color: white !important;
+  color: darkgray !important;
+  border: 1px solid darkgray !important;
+  font-size: 0.9rem;
+}
+
+.css-1rb0k3v-MuiCardContent-root:last-child {
+  padding-bottom: 0 !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(193, 193, 193, 0.218);
 }
