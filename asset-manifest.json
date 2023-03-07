@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TekEat/static/css/main.d3968624.css",
+    "main.js": "/TekEat/static/js/main.3f31eb49.js",
+    "static/js/787.1eeb9704.chunk.js": "/TekEat/static/js/787.1eeb9704.chunk.js",
+    "index.html": "/TekEat/index.html",
+    "main.d3968624.css.map": "/TekEat/static/css/main.d3968624.css.map",
+    "main.3f31eb49.js.map": "/TekEat/static/js/main.3f31eb49.js.map",
+    "787.1eeb9704.chunk.js.map": "/TekEat/static/js/787.1eeb9704.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3968624.css",
+    "static/js/main.3f31eb49.js"
+  ]
+}
